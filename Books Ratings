@@ -1,0 +1,17 @@
+/**Favourite Books:
+The BFG Roald Dahl (5 stars)
+IT Stephen King (4 stars)
+The Outsiders SE Hinton (5 stars)
+Quiet-The powers of introverts in a world that cant stop talking, Susan Cain (5 stars)
+**/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, author TEXT, rating INTEGER);
+
+INSERT INTO Books VALUES (1, "The BFG Roald Dahl", 5);
+INSERT INTO Books VALUES (2, "IT Stephen King", 4);
+INSERT INTO Books VALUES (3, "The Outsiders SE Hinton", 5);
+INSERT INTO Books VALUES (4, "Quiet The powers of introverts in a world that cant stop talking Susan Cain", 5);
+INSERT INTO Books VALUES (5, "Inside Out Demi Moore", 4);
+INSERT INTO Books VALUES (6, "You Must Be New Here Dick Newell", 4);
+
+SELECT * FROM Books;
